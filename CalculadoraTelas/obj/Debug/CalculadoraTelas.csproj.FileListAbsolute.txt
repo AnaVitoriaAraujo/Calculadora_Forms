@@ -1,0 +1,11 @@
+C:\Users\ana.vasouza2\source\repos\CalculadoraTelas\CalculadoraTelas\bin\Debug\CalculadoraTelas.exe.config
+C:\Users\ana.vasouza2\source\repos\CalculadoraTelas\CalculadoraTelas\bin\Debug\CalculadoraTelas.exe
+C:\Users\ana.vasouza2\source\repos\CalculadoraTelas\CalculadoraTelas\bin\Debug\CalculadoraTelas.pdb
+C:\Users\ana.vasouza2\source\repos\CalculadoraTelas\CalculadoraTelas\obj\Debug\CalculadoraTelas.csproj.AssemblyReference.cache
+C:\Users\ana.vasouza2\source\repos\CalculadoraTelas\CalculadoraTelas\obj\Debug\CalculadoraTelas.csproj.SuggestedBindingRedirects.cache
+C:\Users\ana.vasouza2\source\repos\CalculadoraTelas\CalculadoraTelas\obj\Debug\CalculadoraTelas.Form1.resources
+C:\Users\ana.vasouza2\source\repos\CalculadoraTelas\CalculadoraTelas\obj\Debug\CalculadoraTelas.Properties.Resources.resources
+C:\Users\ana.vasouza2\source\repos\CalculadoraTelas\CalculadoraTelas\obj\Debug\CalculadoraTelas.csproj.GenerateResource.cache
+C:\Users\ana.vasouza2\source\repos\CalculadoraTelas\CalculadoraTelas\obj\Debug\CalculadoraTelas.csproj.CoreCompileInputs.cache
+C:\Users\ana.vasouza2\source\repos\CalculadoraTelas\CalculadoraTelas\obj\Debug\CalculadoraTelas.exe
+C:\Users\ana.vasouza2\source\repos\CalculadoraTelas\CalculadoraTelas\obj\Debug\CalculadoraTelas.pdb
