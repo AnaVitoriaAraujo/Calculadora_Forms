@@ -33,42 +33,51 @@ namespace CalculadoraTelas
 
         private void button3_Click(object sender, EventArgs e)
         {
-                
-        }//botao igual
+            maskedTextBox1.Text = "" + this.Modelo.Raiz(Convert.ToDouble(maskedTextBox1.Text));
 
-        private void label3_Click(object sender, EventArgs e)
-        {
+        }//Raiz
 
-        }//segundo numero
-
+      
         private void button5_Click(object sender, EventArgs e)
         {
-            maskedTextBox2.Text = ("" +this.Modelo.Subtrair());
+            maskedTextBox1.Text = "" + this.Modelo.Subtrair(Convert.ToDouble(maskedTextBox1.Text));
         }//Subtrair
 
         private void button6_Click(object sender, EventArgs e)
         {
-            double getnum1 = Convert.ToInt32(maskedTextBox2.Text);
-            double getnum2 = Convert.ToInt32(maskedTextBox1.Text);
-            double resultado = getnum1 + getnum2;
-            maskedTextBox1.Text = ("Esse é o resultado: " + resultado);
+            maskedTextBox1.Text = "" + this.Modelo.Somar(Convert.ToDouble(maskedTextBox1.Text));
 
         }//Soma
 
         private void button1_Click(object sender, EventArgs e)
         {
-            maskedTextBox1.Text = ("Esse é o resultado: " + this.Modelo.Somar());
+            maskedTextBox1.Text = "" + this.Modelo.Potencia(Convert.ToDouble(maskedTextBox1.Text));
 
         }//Potencia
 
         private void button2_Click(object sender, EventArgs e)
         {
-            maskedTextBox1.Text = ("Esse é o resultado: " + this.Modelo.Somar());
+            maskedTextBox1.Text = "" + this.Modelo.Dividir(Convert.ToDouble(maskedTextBox1.Text));
         }//Dividir
 
         private void button4_Click(object sender, EventArgs e)
         {
-            maskedTextBox1.Text = ("Esse é o resultado: " + this.Modelo.Multiplicar());
+            maskedTextBox1.Text = "" + this.Modelo.Multiplicar(Convert.ToDouble(maskedTextBox1.Text));
         }//Multiplicar
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            maskedTextBox1.Text = "" + this.Modelo.Limpa(Convert.ToDouble(maskedTextBox1.Text));
+        }
+
+        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
     }
 }

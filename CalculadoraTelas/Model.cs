@@ -9,50 +9,58 @@ namespace CalculadoraTelas
 {
     class Model
     {
-        private double num1;
-        private double num2;
-
+        private double operacao;
         public Model()
         {
-            getnum1 = 0;
-            getnum2 = 0;
-        }
+            ConsultarOperacao = 0;
+        }//fim do construtor
 
-        public double getnum1
+        public double ConsultarOperacao
         {
-            get { return num1; }
-            set { num1 = value; }
-        }
+            get { return operacao;}
+            set { this.operacao = value;}
+        }//fim do método
 
-        public double getnum2
+        public double Somar(double getnum)
         {
-            get { return num2; }
-            set { num2 = value; }
-        }
+            return ConsultarOperacao = getnum + getnum;
+        }//fim do somar
 
-
-        public double Somar()
+        public double Subtrair(double getnum)
         {
-            
-            return  getnum1 + getnum2;
-        }
+            return ConsultarOperacao = getnum - getnum ;
+        }//fim do subtrair
 
-        public double Subtrair()
+        public double Dividir(double getnum)
         {
-            return getnum1 - getnum2;
-        }
+            if(getnum == 0)
+            {
+                return 0;
+            }
 
-        public double Divisao()
+            return ConsultarOperacao = getnum / getnum;
+        }//fim do somar
+
+        public double Multiplicar(double getnum)
         {
-            return getnum1 / getnum2;
-        }
+            return ConsultarOperacao = getnum * getnum;
+        }//fim do multiplicar
 
-        public double Multiplicar()
+        public double Raiz(double getnum)
         {
-            return getnum1 * getnum2;
-        }
+            return ConsultarOperacao + Math.Sqrt(getnum);
+        }//fim da Raiz
 
-        
+        public double Potencia (double getnum)
+        {
+            return ConsultarOperacao = Math.Pow(getnum, getnum);
+        }//fim da potencia
+
+        public double Limpa(double num)
+        {
+            return 0;
+        }
+              
     }
 
     
